@@ -7,7 +7,6 @@ import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpMethods, HttpRequ
 import spray.json._
 import akka.pattern.ask
 import akka.util.Timeout
-import part2_lowlevelserver.GuitarDB.{CreateGuitar, FindAllGuitars, GuitarCreated}
 
 import scala.concurrent.Future
 import scala.concurrent.duration._
